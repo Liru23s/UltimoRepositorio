@@ -1,0 +1,50 @@
+# Documentación del Sistema de Inventario y Facturación
+
+## 1. Introducción
+
+Este Sistema de Inventario es una aplicación de escritorio desarrollada en C# con Windows Forms y SQL Server. Su propósito es facilitar la administración de productos, el control de existencias y el registro de ventas y facturas.
+
+## 2. Objetivo general
+
+Desarrollar un sistema que permita gestionar los productos de un negocio, controlar el inventario y registrar las operaciones de venta de manera organizada y segura.
+
+## 3. Tecnologías utilizadas
+
+- **Lenguaje de programación:** C#.
+- **Entorno de desarrollo:** Visual Studio.
+- **Interfaz gráfica:** Windows Forms.
+- **Base de datos:** Microsoft SQL Server.
+- **Gestión de base de datos:** SQL Server Management Studio (SSMS).
+- **Generación de PDF:** QuestPDF.
+
+## 4. Funcionalidades principales
+
+- Registro e inicio de sesión de usuarios.
+- Administración de cuentas y permisos según el rol.
+- Registro, modificación y eliminación de productos.
+- Control de existencias del inventario.
+- Registro de entradas y salidas de productos.
+- Realización de ventas mediante un carrito de compras.
+- Descuento automático de existencias al completar una venta.
+- Registro y consulta de facturas.
+- Generación de reportes de ventas.
+- Consulta de productos con existencias bajas.
+- Exportación de documentos PDF.
+
+## 5. Tipos de usuarios
+
+**Administrador:** Puede gestionar usuarios, productos, inventario, movimientos y reportes del sistema.
+
+**Usuario:** Puede consultar los productos disponibles, realizar ventas y consultar sus propias facturas.
+
+## 6. Base de datos
+
+El sistema utiliza SQL Server para almacenar la información de los usuarios, productos, movimientos de inventario, facturas y detalles de cada venta.
+
+Esto permite conservar los registros y consultarlos cuando sea necesario.
+
+## 7. Conclusión
+
+El desarrollo de este proyecto permitió aplicar conocimientos de programación en C#, diseño de interfaces gráficas, conexión con bases de datos y manejo de información mediante SQL Server.
+
+El resultado es una herramienta que facilita el control de inventario y la gestión de ventas, contribuyendo a una administración más organizada de un negocio.
